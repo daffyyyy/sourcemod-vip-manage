@@ -1,0 +1,153 @@
+body.app {
+  background: #161616;
+}
+
+.app-header {
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+  border-bottom: 1px solid #1a416d;
+  background: #091c31;
+}
+
+.app-sidepanel {
+  border-right: 1px solid #1a416d;
+  -webkit-box-shadow: 3px 0px 20px 0px #102844;
+  box-shadow: 3px 0px 20px 0px #102844;
+}
+
+.app-sidepanel .sidepanel-inner {
+  background: #15375e;
+}
+
+.app-nav .nav-link,
+a,
+a:visited,
+.app-branding .logo-text,
+.app-card-stat .stats-figure {
+  color: #84a5de;
+}
+
+.app-nav .nav-item {
+  background: #14283f;
+}
+
+.app-nav .nav-link.active {
+  color: #357cee;
+  background: #091c31;
+}
+
+.app-nav .nav-link.active,
+.app-card.border-left-decoration {
+  border-left: 3px solid #357cee;
+}
+
+.app-nav .nav-link:hover,
+a:hover,
+a:focus,
+a.app-link:hover {
+  color: #357cee;
+}
+
+.app-nav .nav-link:hover {
+  background: #091c31;
+}
+
+a.app-link {
+  color: #8a8a8a;
+}
+
+a.app-link:hover {
+  -webkit-text-decoration-color: #6aa0f8;
+  text-decoration-color: #6aa0f8;
+}
+
+.app-sidepanel-footer {
+  border-top: 1px solid #1a416d;
+  background: #1a416d;
+}
+
+.app-card .app-icon-holder {
+  color: #357cee;
+  background: #313131;
+}
+
+.app-card {
+  background: #1d1d1d;
+  border: 1px solid rgba(53, 124, 238, 0.2);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: #9aaac4;
+}
+
+.table {
+  color: #9aaac4;
+}
+
+.table th,
+.table td,
+.table thead th,
+.table > :not(:last-child) > :last-child > * {
+  border-color: #354055;
+}
+
+.app-btn-secondary {
+  color: #2b6bd3;
+  background: #313131;
+  border: 1px solid #2b6bd3;
+}
+
+.app-btn-secondary:hover {
+  background: #313131;
+  color: #357cee;
+  border: 1px solid #357cee;
+}
+
+.modal-content {
+  background: #1d1d1d;
+}
+
+.form-control,
+.form-control:focus,
+.form-select {
+  border-color: rgba(53, 124, 238, 0.2);
+  background-color: #1a1a1a;
+  color: #5d6778;
+}
+
+.form-check-input:checked {
+  background-color: #357cee;
+  border-color: #357cee;
+}
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #272727 inset !important;
+}
+
+.alert-success {
+  color: #63a076;
+  background-color: #25352a;
+  border-color: #394c3f;
+}
+
+.alert-danger {
+  color: #aa5956;
+  background-color: #412624;
+  border-color: #6d4b48;
+}
