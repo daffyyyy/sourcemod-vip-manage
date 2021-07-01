@@ -19,6 +19,7 @@ Put all files to webserver with PHP 7.3+ and go to page, the installer will appe
 
 database entry in databases.cfg **vip-webpanel**
 Ex. 	
+```
 "vip-webpanel"
 	{
 		"driver"			"mysql"
@@ -29,7 +30,7 @@ Ex.
 		//"timeout"			"0"
 		//"port"			"0"
 	}
-
+```
 
 ## Credits
 
